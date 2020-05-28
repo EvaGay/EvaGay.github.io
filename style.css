@@ -1,0 +1,40 @@
+.container{
+	margin: 0 auto;
+	width: 50%;
+	border:2px solid black;
+}
+img{
+	width: 20%;
+	border-radius: 100%;
+	margin-top: 6%;
+	margin-left: 8%;
+}
+.block1{
+	display: flex;
+	flex-direction: row;
+}
+.text{
+	margin-top: 6%;
+	margin-left: 8%;
+}
+.block2{
+	border:2px solid black;
+	margin-top: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block3{
+	display: flex;
+	justify-content: center;
+	border:2px solid black;
+	padding-top: 2%;
+	padding-bottom: 8%;
+}
+button{
+	width: 40%;
+	height: 50px;
+	font-weight: bold;
+	font-size: 26px;
+	border-radius: 22%;
+}
