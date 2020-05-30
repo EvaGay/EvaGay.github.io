@@ -1,28 +1,271 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>portfolio_page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
-<body>	
-		<div class="container">
-			<div class="block1">
-				<img src="img.jpg">
-				<div class="text">
-					<h2>Начинающий веб-разаботчик</h2>
-					<br>
-					<h2>Гайдучок Ева</h2>
+<body>
+
+	<div class="container">
+		
+		<header class="start" id="home">
+			<img class="home-overlay" src="img/cover.jpg">
+			<div class="intro">
+				<h2 class="header_h3">Привет! Меня зовут Ева, я </h2>
+				<h1 class="header_h1">FRONTEND & WORDPRESS РАЗРАБОТЧИК</h1>
+				<h2 class="header-h3">создание высококачественных FrontEnd продуктов
+				и не менее качественных BackEnd решений на базе WORDPRESS</h2>
+			</div>
+		</header>
+
+		<nav>
+			<div class="navbar-header">
+				<a class="navbar" href="">Гайдучок Ева</a>
+			</div>
+
+			<div class="menu_nav">
+				<div class="palka"></div>
+				<div class="palka"></div>
+				<div class="palka"></div>
+			</div>
+			<!-- <div  class="consol">
+				<ul class="navbar_console">
+					<li class="menu-item">
+						<a href="#home" class="a_menu">Домашняя</a>
+					</li>
+					<li class="menu-item">
+						<a href="#services" class="a_menu">Услуги</a>
+					</li>
+					<li class="menu-item">
+						<a href="#portfolio" class="a_menu">Портфолио</a>
+					</li>
+					<li class="menu-item">
+						<a href="#skills" class="a_menu">Навыки</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contact" class="a_menu">Контакты</a>
+					</li>
+				</ul>
+			</div> -->
+		</nav>
+		<main>
+			<div class="box" id="services">
+				<div class="text_box  wow flipInX">
+					<h2 class="h2_box">ЭТО - ТО, ЧТО Я ДЕЛАЮ</h2>
+					<div class="pfblock-line"></div>
+					<div class="pfblock-subtitle">
+					Высокая способность к самообучению, глубокий интерес в сфере разработки сайтов позволили мне добиться немалого профессионализма в этом направлении.	</div>
 				</div>
 			</div>
-			
-			<div class="block2">
-				<h2>Мои проэкты:</h2>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="rr wow slideInLeft animated_row">
+						<img src="img/palka.png" class="img">
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Front-End</h3>
+							<div class="iconbox-desc">
+								HTML+CSS+JS кодирование дизайнов любой сложности	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="rr wow slideInLeft animated_row">
+						<img src="img/pazl.png" class="img">
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web Программирование</h3>
+							<div class="iconbox-desc">
+								Создание различных web-приложений				
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="rr wow slideInRight animated_row">
+						<img src="img/nagrada.png" class="img">
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">WordPress</h3>
+							<div class="iconbox-desc">
+								Разработка сайтов - от блога до интернет магазина							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="rr wow slideInRight animated_row">
+						<img src="img/vopros.png" class="img">
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Консультирование</h3>
+							<div class="iconbox-desc">
+								Готов делиться своим опытом с заинтересованным клиентом	
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			
-			<div class="block3">
-				<button>ЗОЖ на карантине</button>
-			</div>
-		</div>
+		</main>
+		<section class="section1" id="portfolio">
+			<article class="article1 wow bounce">
+				<h2 class="h2_box sect1_h2">МОИ РАБОТЫ</h2>
+				<div class="pfblock-line"></div>
+				<div class="pfblock-subtitle">
+				Это лишь часть выполненных мною работ. Больше Вы найдете в Портфолио</div>
+			</article>
+			<article class="article2">
+				<div class="block_art1">
+
+					<div class="wrapper block wow rotateInDownRight">
+						<div class="card">
+							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/ICPzq2ktgB2GoZyIaBcXS2CaBGrmV1VuwA1VaLbi6ZWPDoqlfCKTKeP6cCbELkTjUBZToU0-QYHYqwh2PW6DHHgX8MFFlbzMs606XBxAMNy3s22Tra5R5Ayk6pkR7QSXkdp8fNIC" class="img_block"></div>
+							<div class="back h2_block"><span>Сайт-визитка</span></div>
+						</div>
+					</div>
+
+					<div class="wrapper block wow pulse">
+						<div class="card">
+							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/CWLB6qOC-_PgxT03WX4T8Cj_uqLMni5Xl93srU_UoNoszVTsbVcR_O1oo5lhxa3ghPRuog_HqHTI5aPPw-hcX4to_ErskLyIxGKMl90FeCUbZ7X16NrRWt2ZxfhZG7IJEhysszlo9qDpdCrEwYUB5Qeiq7Ai" class="img_block"></div>
+							<div class="back h2_block"><span>Интернет-магазин</span></div>
+						</div>
+					</div> 
+
+
+					<div class="wrapper block wow rotateInDownLeft">
+						<div class="card">
+							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/tGjfKjcP_MCuuZmbEJGRV1xsAf110x-gOkqBJliFJkhBNKUwz00p_o2pC1Z0mWAEozDUgSuyjmMvqpa9PnmQk6pOTVRqVUVIAOK81rMcQW-GCsuIs-SmSohTpwuJvaYGULPyHBmaDg" class="img_block"></div>
+							<div class="back h2_block"><span>Натяжные потолки</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="block_art2">
+
+					<div class="wrapper block wow rotateInUpRight">
+						<div class="card">
+							<div class="front"><img src="https://cdn.wallscloud.net/converted/2254642368-Priroda-EGDg-1920x1080-MM-100.jpg" class="img_block"></div>
+							<div class="back h2_block"><span>Промо-сайт</span></div>
+						</div>
+					</div>
+
+					<div class="wrapper block wow pulse">
+						<div class="card">
+							<div class="front"><img src="https://img3.akspic.ru/image/97368-priroda-otrazhenie-hadis-voda-allah-1920x1080.jpg" class="img_block"></div>
+							<div class="back h2_block"><span>Сайт-визитка</span></div>
+						</div>
+					</div>
+
+					<div class="wrapper block wow rotateInUpLeft">
+						<div class="card">
+							<div class="front"><img src="https://s1.1zoom.ru/b5539/819/Canada_Lake_Forests_Vancouver_Island_National_537674_1920x1080.jpg" class="img_block"></div>
+							<div class="back h2_block"><span>Провайдер</span></div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section class="section2" id="skills">
+			<article class="article1_sect2 wow pulse">
+				<h2 class="h2_box sect1_h2">НАВЫКИ</h2>
+				<div class="pfblock-line"></div>
+				<div class="pfblock-subtitle">
+				Своими профессиональными достоинствами считаю:</div>
+				<ul class="ul_sect2">
+					<li>детальный подход к работе</li>
+					<li>не использую конструкторы, работаю в ручном режиме</li>
+					<li>всегда поделюсь, если вижу более рациональное решение</li>
+					<li>четкое соответствие ТЗ</li>
+					<li>грамотность и вежливость</li>
+				</ul>
+			</article>
+
+			<article class="container2">
+				
+
+				<figure class="chart" data-percent="75">
+					<figcaption>HTML</figcaption>
+					<img class="html" src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg">
+					<svg width="200" height="200">
+						<circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+					</svg>
+				</figure>
+
+				<!-- CSS Chart -->
+				<figure class="chart" data-percent="75">
+					<figcaption>CSS</figcaption>
+					<img class="css" src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg">
+					<svg width="200" height="200">
+						<circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+					</svg>
+				</figure>
+
+
+				<!-- Javascript Chart -->
+				<figure class="chart" data-percent="50">
+					<figcaption>Javascript</figcaption>
+					<img class="javascript" src="https://dl.dropboxusercontent.com/s/jsp3rsberc4q650/javascript.svg">
+					<svg width="200" height="200">
+						<circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+					</svg>
+				</figure>
+
+				<!-- Node.js Chart -->
+				<figure class="chart" data-percent="25">
+					<figcaption>Node</figcaption>
+					<img class="node" src="https://www.buycpanel.com/wp-content/uploads/2019/04/node-e1555340190993.png">
+					<svg width="200" height="200">
+						<circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+					</svg>
+				</figure>
+			</article>
+		</section>
+
+		<section class="section3">
+			<article class="article1_sect3 wow fadeInUp">
+				<h2 class="h2_box sect1_h2">НАПИШИТЕ МНЕ
+				</h2>
+				<div class="pfblock-line"></div>
+				<div class="pfblock-subtitle">
+				Возникло желание познакомиться поближе или уточнить детали? Воспользуйтесь этой формой и я обязательно отвечу Вам.</div>
+			</article>
+
+			<article class="article2_sect3 wow jello">
+				<form class="form">
+					<div class="group">
+						<input type="text"><span class="highlight"></span><span class="bar"></span>
+						<label>ФИО</label>
+					</div>
+					<div class="group">
+						<input type="email"><span class="highlight"></span><span class="bar"></span>
+						<label>Email</label>
+					</div>
+					<div class="group">
+						<input type="message"><span class="highlight"></span><span class="bar"></span>
+						<label>Сообщение</label>
+					</div>
+					<button type="button" class="button buttonBlue">Отправить сообщение
+						<div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+					</button>
+				</form>
+
+			</article>
+		</section>
+		<footer id="contact">			
+				<a href="http://xn--j1ae8a.in.ua/" class="a_footer">
+					<img src="img/logo.png" class="logo">
+				</a>
+		</footer>
+
+
+
+		<!-- <span class="cbp-qtprogress" style="transition: width 8000ms linear 0s; width: 100%;"></span>
+	</div>
 </body>
 </html>
