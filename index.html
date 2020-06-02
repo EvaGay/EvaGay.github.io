@@ -4,16 +4,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>portfolio_page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="animate.css">
-	<script type="text/javascript" src="script.js"></script>
-	<script src="wow.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script>
 		new WOW().init();
 	</script>
 </head>
 <body>
 
+			<div  class="consol" id="consol">
+					<li class="menu-item" onclick="menuitem()">
+						<a href="#home" class="a_menu">Домашняя</a>
+					</li>
+					<li class="menu-item" onclick="menuitem()">
+						<a href="#services" class="a_menu">Услуги</a>
+					</li>
+					<li class="menu-item" onclick="menuitem()">
+						<a href="#portfolio" class="a_menu">Портфолио</a>
+					</li>
+					<li class="menu-item" onclick="menuitem()">
+						<a href="#skills" class="a_menu">Навыки</a>
+					</li>
+					<li class="menu-item" onclick="menuitem()">
+						<a href="#contact" class="a_menu">Контакты</a>
+					</li>
+			</div>
+
+			
 	<div class="container">
 		
 		<header class="start" id="home">
@@ -30,31 +49,11 @@
 			<div class="navbar-header">
 				<a class="navbar" href="">Гайдучок Ева</a>
 			</div>
-
-			<div class="menu_nav">
+			<div class="menu_nav" onclick="myFunction()">
 				<div class="palka"></div>
 				<div class="palka"></div>
 				<div class="palka"></div>
 			</div>
-			<!-- <div  class="consol">
-				<ul class="navbar_console">
-					<li class="menu-item">
-						<a href="#home" class="a_menu">Домашняя</a>
-					</li>
-					<li class="menu-item">
-						<a href="#services" class="a_menu">Услуги</a>
-					</li>
-					<li class="menu-item">
-						<a href="#portfolio" class="a_menu">Портфолио</a>
-					</li>
-					<li class="menu-item">
-						<a href="#skills" class="a_menu">Навыки</a>
-					</li>
-					<li class="menu-item">
-						<a href="#contact" class="a_menu">Контакты</a>
-					</li>
-				</ul>
-			</div> -->
 		</nav>
 		<main>
 			<div class="box" id="services">
@@ -125,14 +124,14 @@
 
 					<div class="wrapper block wow rotateInDownRight">
 						<div class="card">
-							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/ICPzq2ktgB2GoZyIaBcXS2CaBGrmV1VuwA1VaLbi6ZWPDoqlfCKTKeP6cCbELkTjUBZToU0-QYHYqwh2PW6DHHgX8MFFlbzMs606XBxAMNy3s22Tra5R5Ayk6pkR7QSXkdp8fNIC" class="img_block"></div>
+							<div class="front"><img src="https://s1.1zoom.ru/b5358/897/United_Kingdom_Sunrises_and_sunsets_Toor_Northern_542226_1920x1080.jpg" class="img_block"></div>
 							<div class="back h2_block"><span>Сайт-визитка</span></div>
 						</div>
 					</div>
 
 					<div class="wrapper block wow pulse">
 						<div class="card">
-							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/CWLB6qOC-_PgxT03WX4T8Cj_uqLMni5Xl93srU_UoNoszVTsbVcR_O1oo5lhxa3ghPRuog_HqHTI5aPPw-hcX4to_ErskLyIxGKMl90FeCUbZ7X16NrRWt2ZxfhZG7IJEhysszlo9qDpdCrEwYUB5Qeiq7Ai" class="img_block"></div>
+							<div class="front"><img src="https://img3.akspic.ru/image/141533-nebo-voda-gorizont-okean-sinij-1366x768.jpg" class="img_block"></div>
 							<div class="back h2_block"><span>Интернет-магазин</span></div>
 						</div>
 					</div> 
@@ -140,7 +139,7 @@
 
 					<div class="wrapper block wow rotateInDownLeft">
 						<div class="card">
-							<div class="front"><img src="https://lh3.googleusercontent.com/proxy/tGjfKjcP_MCuuZmbEJGRV1xsAf110x-gOkqBJliFJkhBNKUwz00p_o2pC1Z0mWAEozDUgSuyjmMvqpa9PnmQk6pOTVRqVUVIAOK81rMcQW-GCsuIs-SmSohTpwuJvaYGULPyHBmaDg" class="img_block"></div>
+							<div class="front"><img src="https://img2.akspic.ru/image/46291-dikaya_mestnost-ozero-pustynya-boloto-priroda-1920x1080.jpg" class="img_block"></div>
 							<div class="back h2_block"><span>Натяжные потолки</span></div>
 						</div>
 					</div>
@@ -219,7 +218,7 @@
 				<!-- Node.js Chart -->
 				<figure class="chart" data-percent="25">
 					<figcaption>Node</figcaption>
-					<img class="node" src="https://www.buycpanel.com/wp-content/uploads/2019/04/node-e1555340190993.png">
+					<img class="node" src="https://catethysis.ru/wp-content/uploads/2013/09/nodejslogo.png">
 					<svg width="200" height="200">
 						<circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
 					</svg>
@@ -258,9 +257,9 @@
 			</article>
 		</section>
 		<footer id="contact">			
-				<a href="http://xn--j1ae8a.in.ua/" class="a_footer">
-					<img src="img/logo.png" class="logo">
-				</a>
+			<a href="http://xn--j1ae8a.in.ua/" class="a_footer">
+				<img src="img/logo.png" class="logo">
+			</a>
 		</footer>
 
 
